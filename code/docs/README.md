@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.gif
+heroImage: https://s2.ax1x.com/2019/04/28/EMrFsJ.gif
 actionText: 瞅 →
 actionLink: /article/
 features:
