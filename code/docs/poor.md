@@ -1,34 +1,5 @@
 ---
-# title: 这是关于我
-# motto: 永远不要只满足于世界的表象，要敢于探寻未知的可能。
-# description: 永远不要只满足于世界的表象，要敢于探寻未知的可能。
-# layout: MyPage
 paginationHidden: true
-# myName: 佛山市
-# mail: ksgt00901223@foxmail.com
-# site: 天津 滨海新区
-# skill: [
-#     前端基础,
-#     vue框架
-# ]
-# learning: [
-#     后端node,
-#     韩语,
-#     日语
-# ]
-# unfinished: 
-# - title: 一款rpg游戏,
-#   details: wss
-# - title: 一个自己搭建前后端的网站,
-#   details: ss
-# - title: 一个拿得出手的手工,
-#   details: sss
-# - title: 学会多种计算机语言,
-#   details: sss
-# - title: 学会多个语种
-#   details: sss
-
-
 ---
 
 <div style="text-align:center">
@@ -40,18 +11,18 @@ paginationHidden: true
 
 ### 个人信息
 
-- 昵称：枫仁苑~长
 - 简述：一流死肥宅，二把刀厨子，三档程序员。
 - 邮箱：ksgt00901223@foxmail.com
 - 位置：天津 滨海新区
 - 思否：[chow](https://segmentfault.com/u/chow_5979955da315c)
-- 简书：[平凡太郎](https://www.jianshu.com/u/c4b2a8acf30d) （不怎么用了）
+- 简书：[平凡太郎](https://www.jianshu.com/u/c4b2a8acf30d) （弃）
+- 哔哩哔哩：[枫仁苑长](https://space.bilibili.com/15198329)
 
 ### 技能
 
 - 前端基础三大件及相关拓展，如 less，es6 等；
 - vue 框架和 element-ui，项目主要应用；
-- git 常规操作，webpack单词拼写；
+- git 常规操作，webpack 单词拼写；
 - 注重代码优化和可维护性，编写可复用代码；
 - 守望先锋败而心态不崩。
 
@@ -73,7 +44,12 @@ paginationHidden: true
   - 没什么可说的...
 - 脱单
   - 跟上一条一样...  
-  -![ss](https://s2.ax1x.com/2019/04/21/EiD8pT.png)
+    -![ss](https://s2.ax1x.com/2019/04/21/EiD8pT.png)
+
+### 特殊说明
+
+由于网络原因，本站展示内容为码云，仓库链接为 github，无论展示还是仓库二者都有，只是便于统计。
 
 ### 网站简历
- 还没写
+
+还没写

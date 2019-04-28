@@ -3,7 +3,7 @@ module.exports = {
   description: '永远不要只满足于世界的表象，要敢于探寻未知的可能。',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
-    ['link', { rel: 'icon', href: '/blog/img/favicon.ico' }] // 增加一个自定义的 favicon(网页标签的图标)
+    // ['link', { rel: 'icon', href: '/blog/img/favicon.ico' }] // 增加一个自定义的 favicon(网页标签的图标)
   ],
   dest:'../docs',
   base: '/blog', // 这是部署到github相关的配置 下面会讲
@@ -21,7 +21,9 @@ module.exports = {
       { text: '文章', link: '/article/' },
       { text: '类别', link: '/category' },
       // { text: '归档', link: '/timeline' },
-      { text: '我', link: '/poor' }
+      { text: '我', link: '/poor' },
+      { text: 'github', link: 'https://github.com/ksgt00901223/blog' },
+     
     ],
     // sidebar: [
     //   ['/article/', '文章'],
