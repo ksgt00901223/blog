@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>直接在 js 用 id 名的变量 | 枫仁苑</title>
+    <meta name="description" content="永远不要只满足于世界的表象，要敢于探寻未知的可能。">
+    
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.69c0ac52.css" as="style"><link rel="preload" href="/blog/assets/js/app.16a6a90e.js" as="script"><link rel="preload" href="/blog/assets/js/17.6ddd2294.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.2ce032c8.js"><link rel="prefetch" href="/blog/assets/js/11.288c05aa.js"><link rel="prefetch" href="/blog/assets/js/12.b56ff4fe.js"><link rel="prefetch" href="/blog/assets/js/13.8df0754f.js"><link rel="prefetch" href="/blog/assets/js/14.217deb36.js"><link rel="prefetch" href="/blog/assets/js/15.a7e242eb.js"><link rel="prefetch" href="/blog/assets/js/16.fa71901f.js"><link rel="prefetch" href="/blog/assets/js/18.0b31536a.js"><link rel="prefetch" href="/blog/assets/js/19.26acaa00.js"><link rel="prefetch" href="/blog/assets/js/2.8e3d1230.js"><link rel="prefetch" href="/blog/assets/js/20.ea50f7f5.js"><link rel="prefetch" href="/blog/assets/js/21.ab1a7212.js"><link rel="prefetch" href="/blog/assets/js/22.93d1ed08.js"><link rel="prefetch" href="/blog/assets/js/23.dcf8297c.js"><link rel="prefetch" href="/blog/assets/js/24.4e56c059.js"><link rel="prefetch" href="/blog/assets/js/25.f24b0b3a.js"><link rel="prefetch" href="/blog/assets/js/26.bd0edcc5.js"><link rel="prefetch" href="/blog/assets/js/27.ea2bc9d8.js"><link rel="prefetch" href="/blog/assets/js/28.88f314e9.js"><link rel="prefetch" href="/blog/assets/js/29.fd016755.js"><link rel="prefetch" href="/blog/assets/js/3.c938efec.js"><link rel="prefetch" href="/blog/assets/js/30.08b04a0f.js"><link rel="prefetch" href="/blog/assets/js/31.ff74ef5e.js"><link rel="prefetch" href="/blog/assets/js/32.6f2cb595.js"><link rel="prefetch" href="/blog/assets/js/33.032e144f.js"><link rel="prefetch" href="/blog/assets/js/4.fda188e1.js"><link rel="prefetch" href="/blog/assets/js/5.815fdc9a.js"><link rel="prefetch" href="/blog/assets/js/6.f9aa3c98.js"><link rel="prefetch" href="/blog/assets/js/7.2e72fe97.js"><link rel="prefetch" href="/blog/assets/js/8.5f4fe8ed.js"><link rel="prefetch" href="/blog/assets/js/9.47513d84.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.69c0ac52.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name web-font">枫仁苑</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/article/" class="nav-link router-link-active">文章</a></div><div class="nav-item"><a href="/blog/category.html" class="nav-link">类别</a></div><div class="nav-item"><a href="/blog/poor.html" class="nav-link">我</a></div><div class="nav-item"><a href="https://github.com/ksgt00901223/blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/article/" class="nav-link router-link-active">文章</a></div><div class="nav-item"><a href="/blog/category.html" class="nav-link">类别</a></div><div class="nav-item"><a href="/blog/poor.html" class="nav-link">我</a></div><div class="nav-item"><a href="https://github.com/ksgt00901223/blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <div class="custom"><div class="avatar"><img src="/blogassets/img/logo.d0eb473d.gif" alt></div> <p class="name">
+            枫仁苑~长
+            <i class="iconfont icon-xingbienanxianxing" style="color:#409eff"></i></p> <p class="info" style="text-align:center">永远不要只满足于世界的表象，要敢于探寻未知的可能。</p> <p class="info" style="text-align:center">一流死肥宅</p> <p class="info" style="text-align:center">二把刀厨子</p> <p class="info" style="text-align:center">三档程序员</p></div> <!----> </div> <div class="page"> <div class="content defaultCover pageContent"><h2 id="直接在-js-用-id-名的变量"><a href="#直接在-js-用-id-名的变量" aria-hidden="true" class="header-anchor">#</a> 直接在 js 用 id 名的变量</h2> <h3 id="背景"><a href="#背景" aria-hidden="true" class="header-anchor">#</a> 背景</h3> <p>刚刚在写一个创建表格的函数，用于在指定 id 名的 div 下创建一个表格，然后函数参数为 div 的 id 名，一开始写的时候用</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const table1 = document.getElementById('table1');
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>没问题，然后再整理成函数时发现把 id 名传入时，id 名并不是一个字符串，而是这个 id 对应的 dom 节点，</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;div id=&quot;table1&quot;&gt;
+    &lt;/div&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>我猜测是传入的 id 名并不是常量，而是变量，但是我并没有定义它，而后问了下朋友，告诉我
+<strong>你可以在全局变量中获得以 id 值为命名的变量，无需自己定义</strong>
+这就清楚了，以前一直用的 document.getElementById，然后我还在想怎样把这个变量变成字符串，然后一想，没必要啊，直接在函数里定义个变量，把传入的 id 名复制给他就可以了。</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>        let th = [
+            '姓名',
+            '年龄'
+        ];
+        let td = [
+            {
+                name: '张三',
+                age: '18'
+            },
+            {
+                name: '李四',
+                age: '22'
+            }
+        ];
+        const createdTable = (idname, th, td) =&gt; {
+            //const table1 = document.getElementById('table1');这句话可以不用了，直接用下面的
+            const table1 = idname;
+            let thPart = '';
+            let tdPart = '';
+            th.forEach(v =&gt; {
+                thPart += ` &lt;th&gt;${v}&lt;/th&gt;`;
+            });
+            td.forEach(v =&gt; {
+                tdPart +=
+                    `&lt;tr&gt;
+                        &lt;td&gt; ${v.name} &lt;/td&gt;
+                        &lt;td&gt; ${v.age} &lt;/td&gt;
+                    &lt;/tr&gt;
+                    `
+            });
+          //应该有thead和tbody，但是懒了
+            let tablePart =
+                `
+                &lt;table &gt;
+                    &lt;tr&gt;
+                    ${thPart}
+                    &lt;/tr&gt;
+                    ${tdPart}
+                &lt;/table&gt;
+                    `;
+
+            table1.innerHTML = tablePart;
+        };
+        createdTable(table1,th,td);//表格所在div的id名，表头数据，表体数据
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br></div></div></div> <div class="page-edit"><span class="classify font-color-4 bga-color-4">JS及jQuery</span> <span class="tag font-color-1 bga-color-1">JavaScript</span><span class="tag font-color-2 bga-color-2">技巧</span> <div class="last-updated"><span id="/article/%E7%9B%B4%E6%8E%A5%E5%9C%A8js%E7%94%A8id%E5%90%8D%E7%9A%84%E5%8F%98%E9%87%8F.html" data-flag-title="Your Article Title" class="leancloud-visitors"><em class="post-meta-item-text">阅读量</em> <i class="leancloud-visitors-count">0</i>；
+            </span> <span class="prefix">上次更新:</span> <span class="time">2019-4-28 11:07:55</span></div></div> <div class="page-edit"><button disabled="disabled" type="button" class="el-button el-button--text is-disabled"><!----><!----><span><i class="el-icon-caret-left"></i>
+            上一页
+        </span></button> <button type="button" class="el-button el-button--text" style="float:right;"><!----><!----><span>
+            下一页
+            <i class="el-icon-caret-right"></i></span></button></div> <div class="page-edit"><div class="vcomment"><div id="vcomments"></div></div></div> <!----> </div> <!----></div></div>
+    <script src="/blog/assets/js/app.16a6a90e.js" defer></script><script src="/blog/assets/js/17.6ddd2294.js" defer></script>
+  </body>
+</html>
